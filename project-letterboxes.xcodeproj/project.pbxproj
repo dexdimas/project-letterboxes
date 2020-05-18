@@ -14,10 +14,12 @@
 		89E4300E24724356006CE21E /* project_letterboxes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 89E4300C24724356006CE21E /* project_letterboxes.xcdatamodeld */; };
 		89E4301024724357006CE21E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89E4300F24724357006CE21E /* Assets.xcassets */; };
 		89E4301324724357006CE21E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89E4301124724357006CE21E /* LaunchScreen.storyboard */; };
+		89E4301B247243F4006CE21E /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E4301A247243F4006CE21E /* OnboardingViewController.swift */; };
+		89E4301D24724449006CE21E /* Onboarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89E4301C24724449006CE21E /* Onboarding.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		89E4300024724356006CE21E /* project-letterboxes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "project-letterboxes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		89E4300024724356006CE21E /* Bingo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bingo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89E4300324724356006CE21E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		89E4300524724356006CE21E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		89E4300724724356006CE21E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -26,6 +28,8 @@
 		89E4300F24724357006CE21E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		89E4301224724357006CE21E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89E4301424724357006CE21E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89E4301A247243F4006CE21E /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		89E4301C24724449006CE21E /* Onboarding.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Onboarding.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +54,7 @@
 		89E4300124724356006CE21E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				89E4300024724356006CE21E /* project-letterboxes.app */,
+				89E4300024724356006CE21E /* Bingo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -61,7 +65,9 @@
 				89E4300324724356006CE21E /* AppDelegate.swift */,
 				89E4300524724356006CE21E /* SceneDelegate.swift */,
 				89E4300724724356006CE21E /* ViewController.swift */,
+				89E4301A247243F4006CE21E /* OnboardingViewController.swift */,
 				89E4300924724356006CE21E /* Main.storyboard */,
+				89E4301C24724449006CE21E /* Onboarding.storyboard */,
 				89E4300F24724357006CE21E /* Assets.xcassets */,
 				89E4301124724357006CE21E /* LaunchScreen.storyboard */,
 				89E4301424724357006CE21E /* Info.plist */,
@@ -87,7 +93,7 @@
 			);
 			name = "project-letterboxes";
 			productName = "project-letterboxes";
-			productReference = 89E4300024724356006CE21E /* project-letterboxes.app */;
+			productReference = 89E4300024724356006CE21E /* Bingo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -131,6 +137,7 @@
 				89E4301324724357006CE21E /* LaunchScreen.storyboard in Resources */,
 				89E4301024724357006CE21E /* Assets.xcassets in Resources */,
 				89E4300B24724356006CE21E /* Main.storyboard in Resources */,
+				89E4301D24724449006CE21E /* Onboarding.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,6 +150,7 @@
 			files = (
 				89E4300824724356006CE21E /* ViewController.swift in Sources */,
 				89E4300424724356006CE21E /* AppDelegate.swift in Sources */,
+				89E4301B247243F4006CE21E /* OnboardingViewController.swift in Sources */,
 				89E4300E24724356006CE21E /* project_letterboxes.xcdatamodeld in Sources */,
 				89E4300624724356006CE21E /* SceneDelegate.swift in Sources */,
 			);
@@ -296,9 +304,9 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.andimasbagaswara.project-letterboxes";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Bingo;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -314,9 +322,9 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.andimasbagaswara.project-letterboxes";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Bingo;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
